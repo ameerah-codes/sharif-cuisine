@@ -1,0 +1,249 @@
+* {
+	font-family: "Poppins", sans-serif;
+	color: #000;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 20px;
+}
+
+.heading .logo {
+	width: 120px;
+	height: 60px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+}
+
+.heading ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px 30px;
+}
+
+.heading ul li a {
+	color: #808995;
+}
+
+.heading ul li a:hover {
+	color: #26643b;
+	transition: 0.6 ease-in;
+	border-bottom: 3px solid #333;
+}
+
+.logo-button {
+	background: #26643b;
+	width: 140px;
+	font-size: 18px;
+	height: 60px;
+	border-radius: 10px;
+	color: white;
+	border: none;
+}
+
+.logo-button:hover {
+	color: #fff;
+	background: #333;
+	border: 5px solid #26643b;
+}
+
+.booking .container {
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.contained {
+    margin-top: -60px;
+}
+
+.container .flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .row-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.container .row-1 input {
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    background: #d6e5d8;
+    border: 2px solid #26643b;
+}
+
+.container h4 {
+    color: #26643b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .row-2 input {
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    background: #d6e5d8;
+    border: 2px solid #26643b;
+}
+
+.container .row-2 {
+    display: flex;
+    gap: 30px;
+}
+
+.container h4 {
+    color: #26643b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .row-3 input {
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    background: #d6e5d8;
+    border: 2px solid #26643b;
+}
+
+.container .row-3 {
+    display: flex;
+    gap: 30px;
+}
+
+.container h4 {
+    color: #26643b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .row-4 input {
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    background: #d6e5d8;
+    border: 2px solid #26643b;
+}
+
+.container .row-4 {
+    display: flex;
+    gap: 30px;
+}
+
+.container h4 {
+    color: #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .row-5 textarea {
+    width: 1230px;
+    height: 300px;
+    border-radius: 5px;
+    background: #d6e5d8;
+    border: 2px solid #26643b;
+}
+
+.booktable {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.booktable .button-body button {
+    border: 2px solid #333;
+    background-color: #26643b;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.booktable .button-body button {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.flex-container {
+	margin-top: 120px;
+	background-color: #d6e5d8;
+	padding: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo {
+	height: 70px;
+}
+
+.first-column-text {
+	margin-top: 20px;
+}
+
+.first-column {
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.first-column h4 {
+	margin-top: -5px;
+}
+
+.second-column h2 {
+    margin-top: 0px;
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.second-column ol li {
+	margin-top: 9px;
+}
+
+.third-column h2 {
+    margin-top: -80px;
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.third-column ol li {
+	margin-top: 9px;
+}
+
+.fourth-column {
+	margin-top: -105px;
+}
+
+.fourth-column h3 {
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.fourth-column ol li {
+	margin-top: 9px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	color: #26643b;
+}
+
+.copyright .container p {
+	color: #26643b;
+	font-size: larger;
+}

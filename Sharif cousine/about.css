@@ -1,0 +1,202 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+.heading {
+	/*border: 10px solid indigo;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 20px;
+}
+
+.heading .logo {
+	width: 120px;
+	height: 60px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+	/*border: 3px solid olivedrab;*/
+}
+
+.heading ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px 30px;
+}
+
+.heading ul li a {
+	color: #808995;
+}
+
+.heading ul li a:hover {
+	color: #26643b;
+	transition: 0.6 ease-in;
+	border-bottom: 3px solid #333;
+}
+
+.logo-button {
+	/*border: 10px solid orange;*/
+	background: #26643b;
+	width: 140px;
+	font-size: 18px;
+	height: 60px;
+	border-radius: 10px;
+	color: white;
+	border: none;
+}
+
+.logo-button:hover {
+	color: #fff;
+	background: #333;
+	border: 5px solid #26643b;
+}
+
+.our-story {
+    margin-top: 110px;
+	margin-left: 50px;
+}
+
+.our-story .container .wrapper {
+    font-size: 18px;
+    display: flex;
+}
+
+.our-story .container .wrapper .image {
+    width: 60%;
+    height: 400px;
+}
+
+.our-story .container .wrapper .wrapper-text {
+    margin-bottom: 20px;
+    margin-left: 40px;
+	max-width: 700px;
+	margin-right: 50px;
+	margin-top: -20px;
+
+}
+
+.our-story .container .wrapper h1 {
+    margin-bottom: -15px;
+	font-size: 34px;
+}
+
+.our-story .container .wrapper h4 {
+	margin-bottom: 30px;
+	font-size: 22px;
+}
+
+
+/* start of our goals */
+
+.our-goals {
+    margin-top: 160px;
+   /*  max-width: 1200px;
+    width: 50%; */
+}
+
+.our-goals .wordings {
+    width: 55%;
+    text-align: center;
+    margin-left: 320px;
+    font-size: 20px;
+}
+
+.our-goals .wordings h1 {
+    font-size: 36px;
+}
+
+.our-goals .wordings p {
+     text-align: center;
+}
+
+.grid-images {
+    margin-top: 40px;
+}
+
+.grid-images .container .img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid-images .container .flexed-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-container {
+	margin-top: 120px;
+	background-color: #d6e5d8;
+	padding: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-logo {
+	height: 70px;
+}
+
+.first-column-text {
+	margin-top: 20px;
+}
+
+.first-column {
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.first-column h4 {
+	margin-top: -5px;
+}
+
+.second-column h2 {
+    margin-top: 0px;
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.second-column ol li {
+	margin-top: 9px;
+}
+
+.third-column h2 {
+    margin-top: -80px;
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.third-column ol li {
+	margin-top: 9px;
+}
+
+.fourth-column {
+	margin-top: -105px;
+}
+
+.fourth-column h3 {
+	margin-bottom: -11px;
+	font-size: 22px;
+}
+
+.fourth-column ol li {
+	margin-top: 9px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 50px;
+	color: #26643b;
+}
+
+.copyright .container p {
+	color: #26643b;
+	font-size: larger;
+}
